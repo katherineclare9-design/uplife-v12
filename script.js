@@ -2296,6 +2296,48 @@ onchange="completeWorkout('${item}')"
 <div class="card">
 
 
+<h3>☀️ Midday</h3>
+
+
+${workout.midday.map(item=>`
+
+
+
+<label class="workout-item">
+
+
+<input
+
+type="checkbox"
+
+${userData.completedToday.includes(item) ? "checked":""}
+
+onchange="completeWorkout('${item}')"
+
+
+>
+
+
+<span>${item}</span>
+
+
+</label>
+
+
+
+`).join("")}
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
 <h3>
 ${
     userData.mode === "Period"
