@@ -3,13 +3,16 @@
 
 const dailyWorkouts = {
 
-
     Sunday: {
 
         morning: [
             "Lilly Sabri Abs",
             "Deep core activation",
             "Jumps and flexibility"
+        ],
+
+        midday: [
+            "Grow with Jo Full Body Cardio"
         ],
 
         nighttime: [
@@ -26,6 +29,10 @@ const dailyWorkouts = {
             "Lilly Sabri Abs",
             "Deep core activation",
             "Jumps and flexibility"
+        ],
+
+        midday: [
+            "Grow with Jo Full Body Cardio"
         ],
 
         nighttime: [
@@ -45,6 +52,10 @@ const dailyWorkouts = {
             "Jumps and flexibility"
         ],
 
+        midday: [
+            "Grow with Jo Full Body Cardio"
+        ],
+
         nighttime: [
             "Lilly Sabri Glutes/Butt",
             "Full Backspot Strength workout"
@@ -59,6 +70,10 @@ const dailyWorkouts = {
             "Lilly Sabri Abs",
             "Deep core activation",
             "Jumps and flexibility"
+        ],
+
+        midday: [
+            "Grow with Jo Full Body Cardio"
         ],
 
         nighttime: [
@@ -78,6 +93,10 @@ const dailyWorkouts = {
             "Jumps and flexibility"
         ],
 
+        midday: [
+            "Grow with Jo Full Body Cardio"
+        ],
+
         nighttime: [
             "Lilly Sabri Glutes/Butt",
             "Full Backspot Strength workout"
@@ -92,6 +111,10 @@ const dailyWorkouts = {
             "Lilly Sabri Abs",
             "Deep core activation",
             "Jumps and flexibility"
+        ],
+
+        midday: [
+            "Grow with Jo Full Body Cardio"
         ],
 
         nighttime: [
@@ -111,6 +134,30 @@ const dailyWorkouts = {
             "Jumps and flexibility"
         ],
 
+        midday: [
+            "Grow with Jo Full Body Cardio"
+        ],
+
+        nighttime: [
+            "Lilly Sabri Glutes/Butt",
+            "Full backspot Strength workout"
+        ]
+
+    }
+
+};
+
+    Saturday: {
+
+        morning: [
+            "Lilly Sabri Abs",
+            "Deep core activation",
+            "Jumps and flexibility"
+        ],
+
+        midday: [
+            "Grow with Jo Full Body Cardio"
+        ],
         nighttime: [
             "Lilly Sabri Glutes/Butt",
             "Full backspot Strength workout"
@@ -212,15 +259,22 @@ const workoutTypes = {
     },
 
 
-    "Full backspot Strength workout": {
+"Full backspot Strength workout": {
 
-        xp: 30,
+    xp: 30,
 
-        category: "backspot"
+    category: "backspot"
 
-    }
+},
 
 
+"Grow with Jo Full Body Cardio": {
+
+    xp: 25,
+
+    category: "strength"
+
+}
 
 };
 
