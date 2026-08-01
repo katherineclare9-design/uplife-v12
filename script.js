@@ -2097,7 +2097,91 @@ onchange="completeWorkout('Event Morning Routine')"
 <div class="card">
 
 
-<h3>🌙 Night (Optional)</h3>
+<h3>🌅 Morning</h3>
+
+
+${workout.morning.map(item=>`
+
+
+
+<label class="workout-item">
+
+
+<input
+
+type="checkbox"
+
+${userData.completedToday.includes(item) ? "checked":""}
+
+onchange="completeWorkout('${item}')"
+
+
+
+>
+
+
+<span>${item}</span>
+
+
+</label>
+
+
+
+`).join("")}
+
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<h3>☀️ Midday</h3>
+
+
+${workout.midday.map(item=>`
+
+
+
+<label class="workout-item">
+
+
+<input
+
+type="checkbox"
+
+${userData.completedToday.includes(item) ? "checked":""}
+
+onchange="completeWorkout('${item}')"
+
+
+
+>
+
+
+<span>${item}</span>
+
+
+</label>
+
+
+
+`).join("")}
+
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<h3>🌙 Night</h3>
 
 
 ${workout.nighttime.map(item=>`
